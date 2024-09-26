@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Coffe blog </p>
+
+    <form> 
+    Название напитка <label for="title "></label>
+                     <input type="text" id="title " name="title" placeholder="Капучино">
+
+    <br>
+    
+    Сорт кофе <select id="sort" name="sort">
+              <Option>Арабика</Option>
+              <Option>Либерика</Option>
+              <Option>Робуста</Option>
+              <Option>Эксельса</Option>
+              <Option>Другое</Option>
+              </select>
+
+    <br>
+
+    Крепкость обжарки:
+    <br>
+    <input type="radio" name="strong"> Крепкая
+    <br>
+    <input type="radio" name="strong"> Средняя
+    <br>
+    <input type="radio" name="strong"> Слабая
+    
+    <br>
+
+    Изображение <label for="image"></label>
+                <input type="text" id="image" name="image" placeholder="https://i.pinimg.com/736x/16/b9/ca/16b9ca775b2d5479ec3c7fc793b0b072.jpg">
+
+    <br>
+
+    Стоимость напитка <label for="cost"></label>
+                      <input type="text" id="cost" name="cost" placeholder="100">
+    
+    <br>
+
+    Описание <textarea id="description" name="description" placeholder="Немного про напиток"></textarea>
+    <br>
+    <input type="submit" value="Добавить напиток">
+    <br>
+ 
+    </form>
+    <table id="table">
+        <thead>
+            <th>Изображение</th>
+            <th>Название</th>
+            <th>Сорт</th>
+            <th>Крепкость</th>
+            <th>Стоимость</th>
+            <th>Описание</th>
+        </thead>
+    </table>
+    
+
+</body>
+</html>
